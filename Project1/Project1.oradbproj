@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProductVersion>12.1.0.2</ProductVersion>
+    <ProjectGuid>e347f5f4-f625-4f00-bd1f-894013fbf797</ProjectGuid>
+    <DBVERSION>
+    </DBVERSION>
+    <DEFAULTSCHEMANAME>
+    </DEFAULTSCHEMANAME>
+    <AssemblyName>Project1</AssemblyName>
+    <Name>Project1</Name>
+    <RootNamespace>Project1</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Functions\" />
+    <Folder Include="Packages\" />
+    <Folder Include="Procedures\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\guia05" />
+    <Folder Include="Scripts\guia06" />
+    <Folder Include="Scripts\solemne03" />
+    <Folder Include="Security\" />
+    <Folder Include="Security\Permissions\" />
+    <Folder Include="Security\Roles\" />
+    <Folder Include="Security\Users\" />
+    <Folder Include="Sequences\" />
+    <Folder Include="Synonyms\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Tables\Relational Tables" />
+    <Folder Include="Tables\Object Tables" />
+    <Folder Include="Tables\XML Tables" />
+    <Folder Include="User Defined Types\" />
+    <Folder Include="User Defined Types\Nested Tables\" />
+    <Folder Include="User Defined Types\Objects\" />
+    <Folder Include="User Defined Types\VARRAYs\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Relational Views" />
+    <Folder Include="Views\Object Views" />
+    <Folder Include="Views\XML Views" />
+    <Folder Include="Views\Materialized Views" />
+    <Folder Include="XML Schemas\" />
+    <Folder Include="AQ\" />
+    <Folder Include="AQ\Queues\" />
+    <Folder Include="AQ\Queue Tables\" />
+    <Folder Include="Pluggable Databases\" />
+    <Folder Include="Triggers\" />
+    <Folder Include="Triggers\Table Triggers" />
+    <Folder Include="Triggers\View Triggers" />
+    <Folder Include="Triggers\Schema Triggers" />
+    <Folder Include="Triggers\Database Triggers" />
+    <Folder Include="Indexes\" />
+    <DBRefs Include="Database References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\guia05\ej01.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia05\ej02.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia05\ej03.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia05\ej04.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia05\ej05.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia06\ej01.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia06\ej02.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\guia06\ej03.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\solemne03\ej01.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
